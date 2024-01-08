@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaMailBulk} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {Link} from 'react-scroll'
+
 //#0F0F0F
 //#232D3F
 //#005B41
@@ -19,11 +21,11 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+        <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+        <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
+        <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+        <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
       </ul>
 
       {/* Hamburger */}
