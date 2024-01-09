@@ -20,8 +20,10 @@ const Card = ({imageURL, backURL, gitURL, demoURL, name}) => {
         <div className="flip-card-container">
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                 {/* Front */}
-                <div className='container rounded-md flex justify-center items-center mx-auto content-div2 hover:cursor-pointer' onClick={handleClick}>
-                    <img src={imageURL} alt={name} />
+                <div 
+                    style={{backgroundImage: `url(${imageURL})`}} 
+                    className='container rounded-md flex justify-center items-center mx-auto content-div2 hover:cursor-pointer' 
+                    onClick={handleClick}>
                 </div>
                 
                 {/* Back */}
@@ -38,7 +40,6 @@ const Card = ({imageURL, backURL, gitURL, demoURL, name}) => {
                         </a>
                     </div>
                 </div>
-
             </ReactCardFlip>
         </div>
     );
