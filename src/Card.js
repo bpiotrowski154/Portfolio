@@ -17,7 +17,7 @@ const Card = ({imageURL, backURL, gitURL, demoURL, name}) => {
     };
 
     return (
-        <div className="flip-card-container">
+        <div>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
                 {/* Front */}
                 <div 

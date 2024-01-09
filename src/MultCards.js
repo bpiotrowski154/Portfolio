@@ -29,7 +29,8 @@ function MultipleCards(){
                 <p className='text-4xl font-bold inline border-b-4 border-[#5C8374]'>Projects</p>
                 <p className='py-6'>// Check out some of my projects</p>
             </div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
+            
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 relative'>
                 {projects.map((project, index) => (
                     <Card 
                         key={index} 
