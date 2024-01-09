@@ -18,7 +18,8 @@ const Home = () => {
                 I'm a Software Engineer.
             </h2>
             <p className='text-[#93B1A6] py-4 max-w-[700px]'>
-                ***Insert about stuff**
+                I am a new college graduate with a Bachelor of Science in Computer Science. 
+                Currently, I am seeking a job in the tech industry with the goal of working in software or web development.
             </p>
             <div>
                 <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>
