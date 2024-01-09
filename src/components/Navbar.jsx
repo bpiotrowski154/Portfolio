@@ -4,11 +4,6 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll'
 
-//#0F0F0F
-//#232D3F
-//#005B41
-//008170
-
 const Navbar = () => {
   const[nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
