@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import SOS from '../assets/sosimg.png'
 import Capstone from '../assets/capstoneimg.png'
+import ReactCardFlip from 'react-card-flip'
 
 const Projects = () => {
+    const [flip, setFlip] = useState(false);
   return (
     <div name='projects' className='w-full md:h-screen bg-[#0F0F0F]'>
         {/* Container */}
@@ -16,8 +18,17 @@ const Projects = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4' >
                 
                 {/* Projects Grid Item */}
-                <div style={{backgroundImage: `url(${SOS})`}} className='group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <ReactCardFlip isFlipped={flip} flipDirection='horizontal'>
+                    <div onClick={() => setFlip(!flip)} style={{backgroundImage: `url(${SOS})`}} className='group container rounded-md flex justify-center items-center mx-auto content-div2'></div>
+                    <div onClick={() => setFlip(!flip)}>
+                        SOS Application
+                    </div>
+                </ReactCardFlip>
 
+
+                {/* Projects Grid Item */}
+                <div style={{backgroundImage: `url(${SOS})`}} className='group container rounded-md flex justify-center items-center mx-auto content-div'>
+            
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
