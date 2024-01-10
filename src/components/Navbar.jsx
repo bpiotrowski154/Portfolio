@@ -2,11 +2,19 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
+import {Link} from "react-router-dom"
+
+function copyEmail(){
+    navigator.clipboard.writeText('bpiotrowski154@gmail.com');
+    alert("Email copied to clipboard");
+}
 
 const Navbar = () => {
   const[nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+
+  
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0F0F0F] text-gray-300 z-100'>
@@ -42,17 +50,20 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/bpiotrowski154" target='_blank'>
               GitHub <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            {/* <a className='flex justify-between items-center w-full text-gray-300' href="/">
               Email <HiOutlineMail size={30} />
-            </a>
+            </a> */}
+            <button className='flex justify-between items-center w-full text-gray-300' onClick={copyEmail()}>
+              Email <HiOutlineMail size={30} />
+            </button>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a className='flex justify-between items-center w-full text-gray-300' href="/">
+            <a className='flex justify-between items-center w-full text-gray-300' href="/" download>
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>

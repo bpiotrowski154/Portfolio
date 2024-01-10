@@ -24,7 +24,7 @@ const projects = [
 const Projects = () => {
     
   return (
-    <div name='projects' className='w-full md:h-screen bg-[#0F0F0F]'>        
+    <div name='projects' className='w-full h-screen bg-[#0F0F0F]'>        
     
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -59,6 +59,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                    
                 ))}
             </div>
         </div>

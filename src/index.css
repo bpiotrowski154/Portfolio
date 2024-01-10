@@ -23,6 +23,6 @@
     transition: 0.25s;
 }
 
-.content-div:hover {
+.content-div:hover{
     background-image: url("assets/color183d3d.png") !important;
 }
