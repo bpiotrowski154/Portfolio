@@ -20,18 +20,9 @@
     background-size: cover;
     background-position: center;
     height: 250px;
-}
-.content-div2 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
+    transition: 0.25s;
 }
 
 .content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.8)
-    ) !important;
+    background-image: url("assets/color183d3d.png") !important;
 }
