@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import SOS from '../assets/sosimg.png'
 import Capstone from '../assets/capstoneimg.png'
 import ColorDarkGreen from '../assets/color183d3d.png'
-import ReactCardFlip from 'react-card-flip'
 
 
 const projects = [
@@ -23,12 +22,6 @@ const projects = [
 ];
 
 const Projects = () => {
-
-    const [flip, setFlip] = useState(false)
-
-    const handleClick = () => {
-        setFlip(!flip);
-    };
     
   return (
     <div name='projects' className='w-full md:h-screen bg-[#0F0F0F]'>        
