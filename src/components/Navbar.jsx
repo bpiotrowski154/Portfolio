@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0F0F0F] text-gray-300 z-100'>
-      <div className='text-xl'>Brandon Piotrowski</div>
+      <p className='text-xl'>Brandon Piotrowski</p>
 
       {/* menu */}
       <ul className='hidden md:flex'>
@@ -24,9 +24,9 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10 hover:cursor-pointer'>
+      <button onClick={handleClick} className='md:hidden z-10 hover:cursor-pointer'>
         {!nav ? <FaBars /> : <FaTimes />}
-      </div>
+      </button>
 
       {/* Mobile Menu */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0F0F0F] flex flex-col justify-center items-center'}>

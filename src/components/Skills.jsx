@@ -12,7 +12,7 @@ import VSCode from '../assets/vscode.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-[#0F0F0F]'>
+    <div name='skills' className='w-full min-h-screen bg-[#0F0F0F]'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>

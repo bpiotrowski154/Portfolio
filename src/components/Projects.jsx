@@ -2,6 +2,7 @@ import React from 'react'
 import SOS from '../assets/sosimg.png'
 import Capstone from '../assets/capstoneimg.png'
 import ColorDarkGreen from '../assets/color183d3d.png'
+import {Link} from 'react-router-dom'
 
 
 const projects = [
@@ -9,7 +10,7 @@ const projects = [
         imageURL: SOS,
         backURL: ColorDarkGreen,
         gitURL: "https://github.com/bpiotrowski154/SOS-Board-Game",
-        demoURL: "/",
+        demoURL: "../sos",
         name: "SOS Game"
     },
     {
@@ -50,9 +51,7 @@ const Projects = () => {
                                 {project.name}
                             </div>
                             <div className='pt-8 text-center'>
-                                <a href={project.demoURL}  className='text-white border-2 hover:bg-[#5C8374] hover:border-[#5C8374] px-4 py-3 m-2 items-center'>
-                                    Demo
-                                </a>
+                                <Link to={project.demoURL} smooth={true} duration={500} className='text-white border-2 hover:bg-[#5C8374] hover:border-[#5C8374] px-4 py-3 m-2 items-center'>Demo</Link>
                                 <a href={project.gitURL} target='_blank' className='text-white border-2 hover:bg-[#5C8374] hover:border-[#5C8374] px-4 py-3 m-2 items-center'>
                                     GitHub
                                 </a>
