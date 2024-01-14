@@ -25,7 +25,8 @@ const projects = [
 const Projects = () => {
     
   return (
-    <div name='projects' className='w-full h-screen bg-[#0F0F0F]'>        
+    <div name='projects' className='w-full min-h-screen flex flex-col justify-center items-center p-4'>        
+        <div className='h-[80px]'></div>
     
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>

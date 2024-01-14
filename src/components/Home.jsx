@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#0F0F0F]'>
+    <div name='home' className='w-full h-screen min-h-screen flex flex-col justify-center items-center'>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -15,7 +15,7 @@ const Home = () => {
                 Brandon Piotrowski
             </h1>
             <h2 className='text-[#93B1A6] text-4xl sm:text-7xl font-bold'>
-                I'm a Software Engineer.
+                I'm an Aspiring Software Engineer.
             </h2>
             <p className='text-[#93B1A6] py-4 max-w-[700px]'>
                 I am a new college graduate with a Bachelor of Science in Computer Science. 

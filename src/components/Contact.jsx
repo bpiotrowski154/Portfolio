@@ -6,7 +6,8 @@ import Resume from '../resume/BrandonPiotrowski-Resume.pdf'
 
 const Contact = () => {
   return (
-    <div  name='contact' className='w-full h-screen bg-[#0F0F0F] flex flex-col justify-center items-center p-4'>
+    <div  name='contact' className='w-full min-h-screen flex flex-col justify-center items-center p-4'>
+      <div className='h-[80px]'></div>
         <form method='POST' action="https://getform.io/f/ad5c5902-84d3-422c-baf7-b318a8bb5e32" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#5C8374]'>Contact</p>

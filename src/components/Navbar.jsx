@@ -12,7 +12,7 @@ const Navbar = () => {
   
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0F0F0F] text-gray-300 z-100'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300 z-100'>
       <p className='text-xl'>Brandon Piotrowski</p>
 
       {/* menu */}

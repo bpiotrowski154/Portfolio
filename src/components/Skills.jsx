@@ -12,9 +12,10 @@ import VSCode from '../assets/vscode.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full min-h-screen bg-[#0F0F0F]'>
+    <div name='skills' className='w-full min-h-screen flex flex-col justify-center items-center p-4'>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full'>
+            <div className='h-[80px]'></div>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#5C8374]'>Skills</p>
                 <p className='py-4'>// These are the technologies I've worked with</p>
