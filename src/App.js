@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SOSDemo from "./components/Sosdemo"
+import Capstonedemo from "./components/Capstonedemo";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 // #0F0F0F
@@ -23,6 +24,7 @@ function App() {
           <Route path='/skills' Component={Skills}/>
           <Route path='/contact' Component={Contact}/>
           <Route path='/sos' Component={SOSDemo}/>
+          <Route path='/capstone' Component={Capstonedemo}/>
         </Routes>
       </BrowserRouter>
   );

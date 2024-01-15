@@ -37,7 +37,7 @@ const Sosdemo = () => {
             <img src={SosImg3} className='pb-10' />
         </div>
         
-        <a href="https://github.com/bpiotrowski154/SOS-Board-Game" className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>GitHub</a>
+        <a href="https://github.com/bpiotrowski154/SOS-Board-Game" target='_blank' className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>GitHub</a>
         
     </div>
   )

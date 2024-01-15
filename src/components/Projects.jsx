@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import SOS from '../assets/sosimg.png'
 import Capstone from '../assets/capstoneimg.png'
 import ColorDarkGreen from '../assets/color183d3d.png'
@@ -17,13 +17,12 @@ const projects = [
         imageURL: Capstone,
         backURL: ColorDarkGreen,
         gitURL: "/",
-        demoURL: "/",
+        demoURL: "../capstone",
         name: "Capstone Project"
     },
 ];
 
 const Projects = () => {
-    
   return (
     <div name='projects' className='w-full min-h-screen flex flex-col justify-center items-center p-4'>        
         <div className='h-[80px]'></div>
