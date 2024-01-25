@@ -16,9 +16,16 @@ const projects = [
     {
         imageURL: Capstone,
         backURL: ColorDarkGreen,
-        gitURL: "/",
+        gitURL: "https://github.com/bpiotrowski154/capstone",
         demoURL: "../capstone",
         name: "Capstone Project"
+    },
+    {
+        imageURL: Capstone,
+        backURL: ColorDarkGreen,
+        gitURL: "/",
+        demoURL: "../incomeexpense",
+        name: "Income Expense tracker"
     },
 ];
 
