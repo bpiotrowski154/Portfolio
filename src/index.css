@@ -26,6 +26,14 @@
     padding-bottom: 0.5rem;
 }
 
+.demo-explanation p{
+    padding-bottom: 1rem;
+}
+
+.demo-explanation img{
+    padding-bottom: 2.5rem;
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;

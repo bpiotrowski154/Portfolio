@@ -24,12 +24,12 @@ const Calendardemo = () => {
                 <li>Gained experience using HTML, CSS, and Javascript</li>
             </ul>
 
-            <p className='pb-4'></p>
-            <img src='' className='pb-10'/>
-            <p className='pb-4'></p>
-            <img src=''className='pb-10'/>
-            <p className='pb-4'></p>
-            <img src='' className='pb-10' />
+            <p></p>
+            <img src=''/>
+            <p></p>
+            <img src=''/>
+            <p></p>
+            <img src=''/>
         </div>
         
         <a href="https://github.com/bpiotrowski154/HumanComputerInterfaceFinal" target='_blank' className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>GitHub</a>

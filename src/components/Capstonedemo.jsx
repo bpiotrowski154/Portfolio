@@ -37,49 +37,51 @@ const Capstonedemo = () => {
             </p>
             <p className='border-b-4 border-[#5C8374] w-fit'>Significant Takeaways:</p>
             <ul className='takeaways'>
-                <li>- Learned about Python's Flask Framework</li>
-                <li>- Experience working in a team on a larger project</li>
-                <li>- Storage of user information within a database</li>
-                <li>- Dynamic pages displaying information relative to the user</li>
+                <li>Learned about Python's Flask Framework</li>
+                <li>Experience working in a team on a larger project</li>
+                <li>Storage of user information within a database</li>
+                <li>Dynamic pages displaying information relative to the user</li>
             </ul>
 
-            <u className='pb-4'>Application Landing Page</u>
-            <img src={CapstoneHome} className='pb-10'/>
+            <div className='demo-explanation'>
+                <p >Landing Page</p>
+                <img src={CapstoneHome}/>
 
-            <u className='pb-4'>Login Page</u>
-            <img src={CapstoneLogin} className='pb-10'/>
+                <p>Login Page</p>
+                <img src={CapstoneLogin}/>
 
-            <u className='pb-4'>Different Navbars</u>
-            <p>Not logged in</p>
-            <img src={CapstoneNavNone} className='pb-10' />
-            <p>Student User</p>
-            <img src={CapstoneNavStudent} className='pb-10' />
-            <p>Administrator</p>
-            <img src={CapstoneNavAdmin} className='pb-10' />
-            
-            <u className='pb-4'>Edit Profile Page</u>
-            <img src={CapstoneEditProfile} className='pb-10'/>
+                <u>Different Navbars</u>
+                <p>Not logged in</p>
+                <img src={CapstoneNavNone}/>
+                <p>Student User</p>
+                <img src={CapstoneNavStudent}/>
+                <p>Administrator</p>
+                <img src={CapstoneNavAdmin}/>
+                
+                <p>Edit Profile Page</p>
+                <img src={CapstoneEditProfile}/>
 
-            <u className='pb-4'>Student Applying for Job</u>
-            <img src={CapstoneApply} className='pb-10'/>
+                <p>Student Applying for Job</p>
+                <img src={CapstoneApply}/>
 
-            <u className='pb-4'>User's Submitted Applications Page</u>
-            <p>Non-editable Application</p>
-            <img src={CapstoneMyApps} className='pb-10'/>
-            <p>Editable Application</p>
-            <img src={CapstoneMyAppsEditable} className='pb-10'/>
-            <p>Editing A Submitted Applciation</p>
-            <img src={CapstoneEditApp} className='pb-10'/>
+                <u>User's Submitted Applications Page</u>
+                <p>Non-editable Application</p>
+                <img src={CapstoneMyApps}/>
+                <p>Editable Application</p>
+                <img src={CapstoneMyAppsEditable}/>
+                <p>Editing A Submitted Applciation</p>
+                <img src={CapstoneEditApp}/>
 
-            <u className='pb-4'>Administration Page</u>
-            <p>View/Manage Jobs</p>
-            <img src={CapstoneAdminJobs} className='pb-10'/>
-            <p>Job Creation</p>
-            <img src={CapstoneAdminCreateJob} className='pb-10'/>
-            <p>View/Manage Submitted Applications</p>
-            <img src={CapstoneAdminApps} className='pb-10'/>
-            <p>View Users</p>
-            <img src={CapstoneAdminUsers} className='pb-10'/>
+                <u>Administration Page</u>
+                <p>View/Manage Jobs</p>
+                <img src={CapstoneAdminJobs}/>
+                <p>Job Creation</p>
+                <img src={CapstoneAdminCreateJob}/>
+                <p>View/Manage Submitted Applications</p>
+                <img src={CapstoneAdminApps}/>
+                <p>View Users</p>
+                <img src={CapstoneAdminUsers}/>            
+            </div>
         </div>
         
         <a href="https://github.com/bpiotrowski154/capstone" target='_blank' className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>GitHub</a>

@@ -28,13 +28,14 @@ const Sosdemo = () => {
                 <li>Computer-player algorithm design</li>
                 <li>Gained experience with C# and XAML</li>
             </ul>
-
-            <p className='pb-4'>An image taken from game between a human and computer player. The gamemode is set to simple (the first one to form an 'SOS' wins).</p>
-            <img src={SosImg1} className='pb-10'/>
-            <p className='pb-4'>An image where the human player beats the computer player during a simple game.</p>
-            <img src={SosImg2} className='pb-10'/>
-            <p className='pb-4'>An image where the gamemode is set to general (the player with the most 'SOS' formed wins), and the board size is increased.</p>
-            <img src={SosImg3} className='pb-10' />
+            <div className='demo-explanation'>
+                <p>An image taken from game between a human and computer player. The gamemode is set to simple (the first one to form an 'SOS' wins).</p>
+                <img src={SosImg1}/>
+                <p>An image where the human player beats the computer player during a simple game.</p>
+                <img src={SosImg2}/>
+                <p>An image where the gamemode is set to general (the player with the most 'SOS' formed wins), and the board size is increased.</p>
+                <img src={SosImg3}/>
+            </div>
         </div>
         
         <a href="https://github.com/bpiotrowski154/SOS-Board-Game" target='_blank' className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>GitHub</a>
