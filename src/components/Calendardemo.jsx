@@ -1,4 +1,7 @@
 import React from 'react'
+import CalendarImg from '../assets/calendarimg.png'
+import EventCreate1 from '../assets/calendareventcreation.png'
+import EventCreate2 from '../assets/calendareventcreation2.png'
 
 const Calendardemo = () => {
   return (
@@ -13,8 +16,9 @@ const Calendardemo = () => {
 
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full pt-40'>
             <p className='pb-5'>
-                For my junior year Foundations of Software Engineering class, this final project presented an opportunity to learn 
-                about GUI development, and required me to independendently design and implement a software application using the SCRUM process.
+                Beyond exercising GUI design principles, my Human Computer Interface class project was a deep dive into accessibility. We were tasked with 
+                researching a disability and designing a software application tailored to its specific needs. Assigned color blindness, I designed a calendar that 
+                prioritizes inclusivity and empowers users with this visual difference to navigate with ease.
             </p>
             <p className='border-b-4 border-[#5C8374] w-fit'>Significant Takeaways:</p>
             <ul className='takeaways'>
@@ -24,12 +28,14 @@ const Calendardemo = () => {
                 <li>Gained experience using HTML, CSS, and Javascript</li>
             </ul>
 
-            <p></p>
-            <img src=''/>
-            <p></p>
-            <img src=''/>
-            <p></p>
-            <img src=''/>
+            <div className='demo-explanation'>
+                <p>The main page of the application the color pallette is designed to ensure that all users can separate the individual elements of the page</p>
+                <img src={CalendarImg}/>
+                <p>Users can click on different days to create different events</p>
+                <img src={EventCreate1}/>
+                <img src={EventCreate2}/>
+            </div>
+            
         </div>
         
         <a href="https://github.com/bpiotrowski154/HumanComputerInterfaceFinal" target='_blank' className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#5C8374] hover:border-[#5C8374]'>GitHub</a>
