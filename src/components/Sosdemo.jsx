@@ -22,11 +22,11 @@ const Sosdemo = () => {
                 about GUI development, and required me to independendently design and implement a software application using the SCRUM process.
             </p>
             <p className='border-b-4 border-[#5C8374] w-fit'>Significant Takeaways:</p>
-            <ul className='pb-10'>
-                <li>- Learned about front-end and back-end development</li>
-                <li>- GUI design basics and principals</li>
-                <li>- Computer-player algorithm design</li>
-                <li>- Gained experience with C# and XAML</li>
+            <ul className='takeaways'>
+                <li>Learned about front-end and back-end development</li>
+                <li>GUI design basics and principals</li>
+                <li>Computer-player algorithm design</li>
+                <li>Gained experience with C# and XAML</li>
             </ul>
 
             <p className='pb-4'>An image taken from game between a human and computer player. The gamemode is set to simple (the first one to form an 'SOS' wins).</p>

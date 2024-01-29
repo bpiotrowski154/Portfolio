@@ -36,7 +36,7 @@ const Capstonedemo = () => {
                 manage job listings.
             </p>
             <p className='border-b-4 border-[#5C8374] w-fit'>Significant Takeaways:</p>
-            <ul className='pb-10'>
+            <ul className='takeaways'>
                 <li>- Learned about Python's Flask Framework</li>
                 <li>- Experience working in a team on a larger project</li>
                 <li>- Storage of user information within a database</li>

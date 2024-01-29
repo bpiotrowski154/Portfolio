@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import SOS from '../assets/sosimg.png'
 import Capstone from '../assets/capstoneimg.png'
+import Calendar from '../assets/calendarimg.png'
 import ColorDarkGreen from '../assets/color183d3d.png'
 import {Link} from 'react-router-dom'
 
@@ -21,11 +22,11 @@ const projects = [
         name: "Capstone Project"
     },
     {
-        imageURL: Capstone,
+        imageURL: Calendar,
         backURL: ColorDarkGreen,
-        gitURL: "/",
-        demoURL: "../incomeexpense",
-        name: "Income Expense tracker"
+        gitURL: "https://github.com/bpiotrowski154/HumanComputerInterfaceFinal",
+        demoURL: "../calendar",
+        name: "To-Do Calendar"
     },
 ];
 
@@ -38,7 +39,7 @@ const Projects = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#5C8374]'>Projects</p>
-                <p className='py-6'>// Check out some of my projects</p>
+                <p className='text-xl py-6'>// Check out some of my projects</p>
             </div>
 
             {/* Projects Grid Container */}
